@@ -63,7 +63,7 @@ class Themes {
       shadowColor: Colors.transparent, // 그림자 색상을 투명하게 지워요.
       
       // 📱 핸드폰 화면 맨 위의 시계와 배터리가 나오는 부분(상태바)을 설정해요.
-      systemOverlayStyle: const SystemUiOverlayStyle(
+      systemOverlayStyle: SystemUiOverlayStyle(
         statusBarIconBrightness: Brightness.dark, // 시계, 배터리 아이콘을 검은색으로 보이게 해요. (밝은 배경이니까요!)
         systemNavigationBarIconBrightness: Brightness.dark, // 맨 아래 네비게이션 아이콘도 검은색으로!
       ),
@@ -116,7 +116,7 @@ class Themes {
       foregroundColor: _darkPrimary,
       elevation: 0,
       shadowColor: Colors.transparent,
-      systemOverlayStyle: const SystemUiOverlayStyle(
+      systemOverlayStyle: SystemUiOverlayStyle(
         statusBarIconBrightness: Brightness.light, // 시계, 배터리 아이콘을 하얗게 빛나게 해요. (배경이 까만색이니까요!)
         systemNavigationBarIconBrightness: Brightness.light,
       ),
